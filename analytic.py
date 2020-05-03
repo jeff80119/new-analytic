@@ -19,3 +19,4 @@ for d in data:
 	if len(d) < 100:
 		new.append(d)
 print('一共有', len(new), '長度小於100')
+print(new[0])
