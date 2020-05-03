@@ -15,8 +15,11 @@ for d in data:
 print(sum_len/len(data))
 
 new = []
+good = []
 for d in data:
 	if len(d) < 100:
 		new.append(d)
+	if 'good' in d:
+		good.append(d)
 print('一共有', len(new), '長度小於100')
 print(new[0])
